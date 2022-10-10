@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #391113;
+    --pink-color: #f09ec4;
+    --white-color: #fff;
+    --text-color: #9a9a9a;
+    --border-color: #ccc;
+    --hover-color: rgb(238, 238, 238);
+    --header-notify: 44px;
+    --header-nav: 120px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 16px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+        top: 140%;
+        opacity: 0;
+    }
+    to {
+        top: calc(100% + 38px);
+        opacity: 1;
+    }
+}

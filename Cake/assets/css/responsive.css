@@ -1,0 +1,43 @@
+/* Ipad -> Mobile */
+
+@media (max-width: 1023px) {
+    .hide-on-mobile-ipad {
+        display: none;
+    }
+}
+
+
+/* Ipad pro */
+
+@media (min-width: 1024px) and (max-width: 1079px) {
+    .hide-on-ipad-pro {
+        display: none;
+    }
+}
+
+
+/* Ipad */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .hide-on-ipad {
+        display: none;
+    }
+}
+
+
+/* Small Tablet */
+
+@media (min-width: 600px) and (max-width: 767px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 599px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
